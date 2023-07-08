@@ -68,3 +68,194 @@ header .navbar ul li a:active, header .navbar ul li a:hover{
     display: none;
 }
 /* Navbar Styles Ends */
+/* Hero styles */
+.home{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    margin-top: 50px;
+}
+.home .content{
+    padding-top: 1rem;
+    margin-left: 45px;
+}
+.home .image img{
+    width: 60%;
+    margin-left: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.home .image img:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.home .content h2{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #002057;
+}
+.home .content h2 span{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ff7b00;
+}
+.home .content p{
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.home .content p span{
+    font-size: 2.5rem;
+    color: rgb(148, 8, 8);
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.home .btn{
+    margin-top: 1rem;
+    position: absolute;
+    line-height: 0;
+    padding: 1.5rem 3rem;
+    border-radius: 4rem;
+    transition: 0.5s;
+    color: #fff;
+    background-color: #2506ad;
+    box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+}
+.home .btn span{
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.home .btn i{
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+    transition: 0.3s
+}
+.home .btn:hover{
+    background: #1a047e;;
+}
+.home .btn:hover i{
+    transform: translateX(10px)
+}
+/* Social Media Icons */
+.socials{
+    position: relative;
+    margin-top: 9rem;
+}
+.socials .social-icons{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.socials .social-icons li{
+    display: inline-block;
+    margin-bottom: 14px;
+}
+.social-icons a{
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 44px;
+    color: #00d9ff;
+    background: #09011b;
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+}
+.social-icons a:active,.social-icons a:focus, .social-icons a:hover{
+    color: #fff;
+    background: #0685da;
+}
+.social-icons a.linkedIn:hover{
+    background: #007bb6;
+}
+.social-icons a.github:hover{
+    background: #0e0e0e;
+}
+.social-icons a.twitter:hover{
+    background: #00aced;
+}
+.social-icons a.instagram:hover{
+    background: #ee00da;
+}
+.typing-text::before{
+    content: '';
+    animation: typing 2s infinite
+}
+@keyframes typing{
+    0%{
+        content: "";
+    }
+    12.5%{
+        content: "A";
+    }
+    25%{
+        content: 'An';
+    }
+    32.5%{
+        content: 'Ang';
+    }
+    50%{
+        content: 'Angu';
+    }
+    62.5%{
+        content: 'Angul';
+    }
+    75%{
+        content: 'Angula'
+    }
+    100%{
+        content: 'Angular';
+    }
+}
+/* Social Icons End */
+/* Hero Section Ends */
+/* Skills start */
+.skills{
+    margin-top: 50px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    background: linear-gradient(to bottom, #9e74c3, #d3b03e);
+}
+.skills h2{
+    color: orangered;
+}
+.skills .heading span{
+    color: rgb(255,230,0);
+}
+.skills .row div{
+    height: 150px;
+    width: 150px;
+    border: 3px solid orangered;
+    margin: 15px;
+}
+.skills .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    width: 70%;
+    flex: 1;
+}
+
+.html{
+    background-image: url('https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-image-logo-html-7.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.css{
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
